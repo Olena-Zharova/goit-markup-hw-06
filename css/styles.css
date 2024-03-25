@@ -1094,13 +1094,230 @@ padding-bottom: 96px;
 }
 .our-portfolio-list-item {
     width: 365px;
-
 }
-
 }
-
-
-
-
-
 /* ------------------Our-Portfolio-Styles-------------------*/
+
+/* ------------------Footer Styles-------------------------*/
+
+.footer {
+    background: #2e2f42;
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.footer-container{
+    display: block;
+}
+
+.logo-footer {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
+    margin-left: 86px;
+    margin-right: 86px;
+}
+
+.logo-part-footer {
+    color: #f4f4fd;
+}
+
+.text-footer {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    width: 264px;
+}
+
+.page-logo{
+    margin-bottom: 72px;
+}
+
+.name-footer-social-icon-list{
+    margin-bottom: 16px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #fff;
+        padding-left: 56px;
+        padding-right: 56px;
+        text-align: center;
+}
+.container-social-icon{
+    margin-bottom: 72px;
+}
+.footer-social-icon-list{
+    display: flex;
+        gap: 16px;
+        text-align: center;
+        justify-content: center;
+}
+.footer-social-icon-list-item {
+    width: 40px;
+    height: 40px;
+}
+.footer-social-link {
+    background-color: #4d5ae5;
+    fill: #f4f4fd;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+
+    background-color: #31d0aa;
+   }
+
+.footer-form-title{
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #fff;
+        margin-bottom: 16px;
+        text-align: center;
+}
+
+.footer-form-imput{
+    width: 100%;
+        min-width: 264px;
+        height: 40px;
+        outline: transparent;
+        border: 1px solid #fff;
+        border-radius: 4px;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+        opacity: 0.3;
+        background-color: transparent;
+        padding-left: 16px;
+        transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        margin-bottom: 16px;
+        color: #ffffff;
+}
+
+.footer-form-imput::placeholder {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+}
+.footer-form-imput:focus {
+    outline: transparent;
+    border-color: #4d5ae5;
+}
+.footer-form-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        min-width: 165px;
+        height: 40px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #fff;
+        border-radius: 4px;
+        background-color: #4d5ae5;
+        transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
+        outline: transparent;
+        border: none;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.footer-form-button:hover .footer-form-button:focus {
+    background-color: #404BBF
+}
+.footer-form-button-icon {
+    margin-left: 16px;
+}
+
+@media screen and (min-width: 768px){
+.logo-footer{
+    text-align: start;
+}
+
+.footer .footer-container{
+    display: flex;
+        flex-wrap: wrap;
+        align-items: baseline;
+}
+.page-logo{
+    width: 264px;
+        margin-right: 24px;
+        margin-left: 96px;
+
+}
+.logo-footer {
+    margin-left: 0;
+    margin-right: 0;
+}
+.container-social-icon{
+
+    min-width: 208px;
+}
+.name-footer-social-icon-list{
+    text-align: left;
+        padding-left: 0;
+        padding-right: 0;
+}
+.footer-form-title{
+
+    text-align: left;
+}
+.footer-form-wrapper{
+    margin-left: 96px;
+}
+.footer-form{
+    gap: 24px;
+    display: flex;
+
+}
+}
+
+@media screen and (min-width: 1158px){
+
+.footer{
+    padding: 100px 0;
+}
+.page-logo{
+    margin-left: 0;
+        margin-right: 120px;
+        margin-bottom: 0;
+}
+.container-social-icon{
+
+    margin-right: 80px;
+        margin-bottom: 0;
+}
+
+.footer-form-wrapper{
+    margin-left: 0;
+}
+.footer-form-button{
+    margin-right: 0;
+}
+}
+ 
+
+
+/* ------------------/Footer Styles-------------------------*/
