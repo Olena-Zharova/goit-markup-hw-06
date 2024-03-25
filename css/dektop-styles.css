@@ -51,7 +51,8 @@ body {
 .page-header-container{
         display: flex;
         justify-content: space-between;
-}
+        
+} 
 .logo {
     font-family: "Raleway", sans-serif;
         font-weight: 700;
@@ -61,7 +62,7 @@ body {
         text-transform: uppercase;
         color: #4d5ae5;
         margin-right: 76px;
-
+       
 }
 .logo-part {
     color: #2e2f42;
@@ -284,6 +285,7 @@ color: #404bbf
 }
   
 .text-benefits-list-item {
+        font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -302,11 +304,14 @@ color: #404bbf
                 display: flex;
                 margin-bottom: 8px;
 }
-section { 
+         
+section {
         padding-top: 120px;
         padding-bottom: 120px;
 
 }
+
+
 
 /* ----------------Our Team Section Style-------------- */
 
@@ -336,7 +341,7 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
         text-transform: capitalize;
         text-align: center;
         color: #2e2f42;
-        margin-bottom: 72px;
+        
 }
 .team-info {
        text-align: center;  
