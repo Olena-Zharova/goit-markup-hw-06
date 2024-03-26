@@ -115,6 +115,9 @@ display: none;
     .menu-open-btn{ 
         display: none;
     }
+         .page-header-container {
+             padding: 0;
+         }
     .page-nav{
         display: flex;
         align-items: center;
@@ -192,6 +195,7 @@ font-style:normal;
 
 
 @media only screen and (min-width: 1158px) {
+
     .logo
     {margin-right: 76px;}
 
@@ -653,7 +657,7 @@ color: rgba(46, 47, 66, 0.4);
 
 .hero{
 
-max-width: 320px;
+max-width: 350px;
 min-height: 432px;
 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
         url(../images/hero/bg-mobil.jpg);
@@ -747,6 +751,11 @@ background-color: #4D5AE5
 }
 
 @media screen and (min-width: 768px){
+    .hero {
+        max-width: 968px;
+        padding-top: 112px;
+        padding-bottom: 112px;
+        }
 .h-hero{
     font-size: 56px;
         line-height: 1.07;
@@ -758,8 +767,16 @@ background-color: #4D5AE5
 }
 
 @media screen and (min-width: 1158px) {
+ .hero{
+    max-width: 1440px;
+    padding-top: 188px;
+        padding-bottom: 188px;
+ }
 
-.h-hero{margin-bottom: 48px;} 
+.h-hero{
+    margin-bottom: 48px;
+
+} 
 }
 /* ----------------------/Hero Styles------------------------ */
 
